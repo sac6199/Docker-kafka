@@ -20,3 +20,4 @@ cd  /opt
 cd kafka
 ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic sachin
 ```
+![Dashboard](https://github.com/sac6120/Docker-kafka/blob/master/Screenshot%20from%202020-05-27%2012-56-27.png)
