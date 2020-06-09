@@ -12,8 +12,8 @@ This tutorial assumes that you have stable build of docker and docker-compose pr
 
 In a suitable location, clone the set up repo. Switch to this directory and call docker-compose to start your containers
 ```
-$ git clone https://github.com/NealMenon/KafkaMonitor.git
-$ cd Docker-Kafka-Prom-Graf
+$ git clone https://github.com/sac6120/Docker-kafka.git
+$ cd Docker-Kafka
 $ docker-compose up -d
 ```
 The -d flag starts the containers in background mode. At the point, you may call ``docker-compose ps`` to confirm that your 4 containers are up. Additionally, you may shut down your containers using ``docker-compose stop CONTAINER_NAME``
